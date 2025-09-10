@@ -1,4 +1,4 @@
-import { getItems, addItem, deleteItem } from "/js/api.mjs";
+import { getItems, addItem, deleteItem } from "./api.mjs";
 
 function update() {
   const items = getItems();
