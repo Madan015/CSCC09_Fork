@@ -18,7 +18,7 @@ function update() {
       });
     document.querySelector("#items").prepend(element);
   });
-}
+} 
 
 document.querySelector("#add_item").addEventListener("submit", function (e) {
   e.preventDefault();
