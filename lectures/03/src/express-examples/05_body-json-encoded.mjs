@@ -19,7 +19,6 @@ app.post("/", function (req, res, next) {
 // curl localhost:3000/
 app.get("/", function (req, res, next) {
   res.json({ author: "alice", content: "hello world" });
-  // res.json({author: 'alice', content: 'hello world'});
 });
 
 createServer(app).listen(PORT, function (err) {

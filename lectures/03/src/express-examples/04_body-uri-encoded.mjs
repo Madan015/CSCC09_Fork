@@ -11,7 +11,7 @@ app.use(function (req, res, next) {
   next();
 });
 
-// curl -X POST -d 'content=hello%20world&author=alice' localhost:3000/
+// curl -X POST -d "content=hello%20world&author=alice" localhost:3000/
 app.post("/", function (req, res, next) {
   res.end(req.body.author + " says " + req.body.content);
 });
